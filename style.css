@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(225, 248, 161), rgb(129, 244, 248));
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: linear-gradient(white,red,black);
+    height: 30rem;
+    width: 60rem;
+   display: flexbox;
+    
+}
+.manage{
+    height: 7rem;
+    background: rgb(31, 30, 30);
+    border: 3px double rgb(219, 114, 23);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.manage_h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: rgb(150, 253, 253);
+    width: 140px;
+
+
+}
+
+.manage_h3{
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    font-size: x-large;
+    margin-left: 6rem;
+    color: rgb(254, 205, 203);
+    width: 600px;
+}
+.volume{
+    color: white;
+    width: 220px;
+    display: flex;
+    margin: 20px;
+}
+.range{
+    /* cursor: pointer; */
+    margin-left: 20px;
+    
+}
+#ran{
+    cursor: pointer;
+    color: #d4e02c;
+    opacity: 1;
+}
+
+.box{
+    /* background-color: rgb(59, 58, 58); */
+    width: 57rem;
+    height: 20rem;
+    /* border: 2px solid white; */
+    
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;   
+
+}
+
+
+.button_1{
+    background-color: white;
+    width: 5.5rem;
+    /* border: 1px solid black; */
+    margin: 1px;
+    border-radius: 10px;
+    /* border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    z-index: 1;
+}
+
+.button_2{
+    background-color: black;
+    position: absolute;
+    width: 3rem;
+    /* border: 2px solid red; */
+    z-index: 10;
+    height: 15rem;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 5px;
+}
+
+#b2_1{
+    margin-left: 4rem;
+}
+
+#b2_2{
+    margin-left: 9.6rem;
+}
+#b2_3{
+    margin-left: 21.3rem;
+}
+
+#b2_4{
+    margin-left: 26.9rem;
+}
+#b2_5{
+    margin-left: 32.6rem;
+}
+
+#b2_6{
+    margin-left: 43.8rem;
+}
+
+#b2_7{
+    margin-left: 49.6rem;
+}
+
+
+
+
+
