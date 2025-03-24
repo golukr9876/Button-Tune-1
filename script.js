@@ -37,6 +37,7 @@ let O = document.getElementById('b2_6');
 let P = document.getElementById('b2_7');
 
 
+
 window.addEventListener('keydown', e =>{
 
     switch(e.key){
@@ -246,19 +247,32 @@ ran.addEventListener("change", (e) =>{
 
 })
 
+// let ran = document.querySelector(".range").getElementsByTagName("input")[0];
+// const volume = (e) => {
+
+//   
+
+// }
+
+
 
 let audio = new Audio("tunes/a.wav")
 
 const playTune = (key) => {
     audio.src = `Tunes/${key}.wav`;
     audio.play();
+   console.log(key);
+
     ran.addEventListener("change", (e) => {
-        audio.volume = parseInt(e.target.value)/100;
+    audio.volume = parseInt(e.target.value)/100;
+
     })
+
 }
 
 const pressedkey = (e) => {
     playTune(e.key);
+
 }
 
 document.addEventListener("keydown", pressedkey);
